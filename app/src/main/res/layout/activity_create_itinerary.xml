@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateItinerary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:id="@+id/locationImage"
+            android:src="@drawable/captureimage"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Capture location"
+            android:layout_margin="16dp"
+            android:textSize="18dp"
+            android:id="@+id/captureButton"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="16dp"
+            android:text="Enter location here:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/locationName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:hint="eg: St. Kilda Beach"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Location Category Type:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/locationType"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:hint="eg: Beach, Lake, Amusement Park"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Opening hours information:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/locationHours"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:hint="eg: 8:00 AM to 5:00 PM"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Necessary items to carry:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/locationItems"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:hint="Sun cream, swimming shorts"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Share your personal experience:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/locationExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:hint="Write down your experience, the places you visited and also mention what all fun activities you did."
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/uploadToFirebase"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="26dp"
+            android:background="#0079ff"
+            android:text="Upload"
+            android:textColor="#ffffff"
+            android:textSize="26dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

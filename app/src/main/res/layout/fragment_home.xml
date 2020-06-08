@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:layout_gravity="center"
+        android:id="@+id/newSearch"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textNewSearch"
+        android:layout_height="wrap_content"
+        android:text="Click here to search and explore Tourist locations near you."
+        android:textSize="28dp"
+        android:layout_margin="26dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>

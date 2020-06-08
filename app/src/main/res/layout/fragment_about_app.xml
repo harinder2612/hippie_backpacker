@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutApp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="Hippie Bagpacker is an Android APP developed by Harinder Pal Singh (218565023), for submission of Assesment 3 Unit SIT 708 Mobile System Development.\n \n This app has 4 main features which are as follows:\n\n 1. Find tourist locations near you and explore them in Panoramic view.\n\n 2. Explore Itineraries added by other Users.\n\n3. Upload your own Itineraries to firebase (Realtime-database).\n\n 4. Find packing Items according to your destination type."
+        android:layout_margin="16dp"
+        android:layout_marginBottom="36dp"/>
+
+</ScrollView>
